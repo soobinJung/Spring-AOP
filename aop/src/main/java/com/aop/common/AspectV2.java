@@ -21,9 +21,9 @@ public class AspectV2 {
      * PointCut 시그니쳐
      */
     @Pointcut("execution(* com.aop..*.*(..))")
-    private void allOrder(){}
+    public void allOrderV2(){}
 
-    @Around("allOrder()")
+    @Around("allOrderV2()")
     public Object doLogging(ProceedingJoinPoint joinPoint) throws Throwable {
 
         /** 시작 시간 **/
