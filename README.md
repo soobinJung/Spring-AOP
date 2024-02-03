@@ -1,7 +1,6 @@
 
-# AOP (Aspect-Oriented Programming)
 
-### AOP 란
+### AOP (Aspect-Oriented Programming) 란
 AOP는 관점(Aspect)지향 프로그래밍으로, 관점을 기준으로 다양한 기능을 분리하여 보는 프로그래밍이다. 관점(Aspect)이란, 부가 기능과 그 적용처를 정의하고 합쳐서 모듈로 만든 것이다.
 
 ## AOP 적용 방식
