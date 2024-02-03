@@ -58,7 +58,7 @@ public class AspectV3 {
             throw e;
         }
         finally {
-            log.info("Error - " + joinPoint.getSignature().getDeclaringTypeName() + " / " + joinPoint.getSignature().getName());
+            log.info("Finally - " + joinPoint.getSignature().getDeclaringTypeName() + " / " + joinPoint.getSignature().getName());
         }
     }
 }
