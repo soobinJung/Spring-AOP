@@ -65,5 +65,7 @@ Advisor는 Spring AOP에서 사용되는 특정 용어로, 하나의 Advice와 �
 #### 🔊 Weaving
 Weaving은 Advice를 Target의 Join Point에 적용하는 과정을 의미합니다. 이 과정은 컴파일 시간, 로드 시간, 또는 런타임에 수행될 수 있으며, AOP 프레임워크에 따라 다를 수 있습니다. Spring AOP에서는 주로 런타임에 프록시 객체를 통해 이루어집니다.
 
+<br/><br/>
+
 #### 🔊 AOP Proxy
 AOP Proxy는 AOP를 구현하기 위해 생성된 프록시 객체를 의미합니다. 이 프록시는 Target 객체를 감싸고, 해당 객체에 대한 메서드 호출을 가로채어 Advice를 적용한 후 실제 객체의 메서드를 호출합니다. Spring AOP에서는 JDK 동적 프록시 또는 CGLIB 프록시를 사용하여 이를 구현합니다.
